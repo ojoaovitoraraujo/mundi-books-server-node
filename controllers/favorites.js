@@ -1,9 +1,8 @@
-const { getAllFavoriteBooks, addBookToFavorite } = require('../services/favorites');
+const { getAllFavoriteBooks, addBookToFavorite, deleteFavoriteBooksById } = require('../services/favorites');
 
 function getFavoriteBooks(req, res){
     try{
         const favoriteBooks = getAllFavoriteBooks()
-        console.log(favoriteBooks)
         res.send(favoriteBooks)
     }
     catch(error){
@@ -33,9 +32,29 @@ function postFavoritesBooks(req, res){
     }
 }
 
+function deleteFavoriteBooks(req, res){
+    try{
+        const id = req.params.id
+        if(id && Number(id)){
+            deleteFavoriteBooksById(id);
+            res.send("Livro Removido da lista de favoritos")
+        }
+        else{
+            res.status(422)
+            res.send("Id Inválido")
+        }
+
+    }
+    catch(error){
+        res.status(500)
+        res.send(error.message)
+    }
+}
+
 
 
 module.exports = {
     getFavoriteBooks,
-    postFavoritesBooks
+    postFavoritesBooks,
+    deleteFavoriteBooks
 }
