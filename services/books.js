@@ -35,8 +35,6 @@ function removeBook(id){
     // return fs.writeFileSync('books.json', JSON.stringify(books));
 }
 
-
-
 module.exports = {
     getAllBooks,
     getBookById,

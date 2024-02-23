@@ -1,1 +1,72 @@
-[{"id":"1","name":"Clean Archtecture"},{"id":"2","name":"Clean Developer"},{"id":"3","name":"Livro muito legal"},{"id":"4","name":"Livro muito chato"},{"id":"5","name":"New Book"},{"id":"6","name":"Clean Code"}]
+[
+    {
+        "id": "1",
+        "name": "Clean Archtecture",
+        "src": "https://m.media-amazon.com/images/I/51E2055ZGUL._SY466_.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Clean Developer",
+        "src": "https://m.media-amazon.com/images/I/51E2055ZGUL._SY466_.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Livro muito legal",
+        "src": "https://m.media-amazon.com/images/I/51E2055ZGUL._SY466_.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Livro muito chato",
+        "src": "https://m.media-amazon.com/images/I/51E2055ZGUL._SY466_.jpg"
+    },
+    {
+        "id": "5",
+        "name": "New Book",
+        "src": "https://m.media-amazon.com/images/I/51E2055ZGUL._SY466_.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Clean Code",
+        "src": "https://m.media-amazon.com/images/I/51E2055ZGUL._SY466_.jpg"
+    },
+    {
+        "id": "7",
+        "name": "Entendendo algoritmos",
+        "src": "https://m.media-amazon.com/images/I/51E2055ZGUL._SY466_.jpg"
+    },
+    {
+        "id": "8",
+        "name": "Cangaceiro Javascript",
+        "src": "https://m.media-amazon.com/images/I/51E2055ZGUL._SY466_.jpg"
+    },
+    {
+        "id": "9",
+        "name": "Guia básico de C#",
+        "src": "https://m.media-amazon.com/images/I/51E2055ZGUL._SY466_.jpg"
+    },
+    {
+        "id": "10",
+        "name": "Guia básico de JavaScript",
+        "src": "https://m.media-amazon.com/images/I/51E2055ZGUL._SY466_.jpg"
+    },
+    {
+        "id": "11",
+        "name": "Código Limpo",
+        "src": "https://m.media-amazon.com/images/I/51E2055ZGUL._SY466_.jpg"
+    },
+    {
+        "id": "12",
+        "name": "JavaScript para iniciantes",
+        "src": "https://m.media-amazon.com/images/I/51E2055ZGUL._SY466_.jpg"
+    },
+    {
+        "id": "13",
+        "name": "Conhecendo o python",
+        "src": "https://m.media-amazon.com/images/I/51E2055ZGUL._SY466_.jpg"
+    },
+    {
+        "id": "14",
+        "name": "Imersão Alura",
+        "src": "https://m.media-amazon.com/images/I/51E2055ZGUL._SY466_.jpg"
+    }
+]
